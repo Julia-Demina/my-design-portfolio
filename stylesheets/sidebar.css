@@ -1,0 +1,39 @@
+.sidebar {
+  width: 200px;
+  margin: 32px;
+}
+
+.sidebar h2 {
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.sidebar ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ol ol {
+  margin-top: 12px;
+  padding-left: 16px;
+}
+
+.sidebar li {
+  margin-bottom: 12px;
+}
+
+.sidebar a {
+  color: #f2f2f2;
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: opacity 0.2s ease-out;
+}
+
+.sidebar a:hover,
+.sidebar a:focus-visible {
+  opacity: 1;
+}

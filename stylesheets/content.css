@@ -1,73 +1,85 @@
-* {box-sizing: border-box;}
 body {
-    margin: 0;
-    padding: 0;
     background-color: #181818;
     color: #f2f2f2;
     font-family: Arial, Helvetica, sans-serif;
 }
-.page {
+.content .page {
     max-width: 700px;
     margin: 80px auto;
 }
-h1 {
+.content h1 {
     font-size: 21px;
     line-height: 24px;
     font-weight: bold;
     margin-bottom: 36px;
 }
-.lead {
+.content .lead {
     color: rgba(255, 255, 255, 0.4);
     font-size: 12px;
     line-height: 20px;
     margin-bottom: 90px;
 }
-img {
+.content img {
     width: 1020px;
-    max-width: 100%;
     margin: 0 auto;
-    display: block;
     margin-bottom: 90px;
 }
-p {
+.content p {
     font-size: 11px;
     line-height: 23px;
     margin-bottom: 52px;
 }
-.before-heading {
+.content .before-heading {
     margin-bottom: 64px;
 }
-h2 {
+.content h2 {
     font-size: 17px;
     line-height: 19px;
     margin-bottom: 28px;
 }
-.with-subtitle {
+.content .with-subtitle {
     margin-bottom: 56px;
 }
-h3 {
+.content h3 {
     font-size: 15px;
     line-height: 17px;
     margin-bottom: 28px;
 }
-ol {
+.content ol {
     padding-left: 14px;
     margin-bottom: 64px;
     margin-left: 16px;
 }
-li {
+.content li {
     font-size: 11px;
     line-height: 23px;
     margin-bottom: 40px;
 }
-a {
+.content a {
     color: #245fcc;
     font-size: 15px;
     text-decoration-line: none;
 }
-a:hover {
+.content a:hover {
     color: #56647f;
 }
-a:focus-visible {
+.content a:focus-visible {
     outline: 3px solid #3d8dff;
+}
+.content blockquote {
+  margin: 32px 0;
+  padding-left: 20px;
+  border-left: 4px solid #639bd5;
+}
+
+.content blockquote p {
+  margin: 0 0 12px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.content blockquote footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  line-height: 20px;
 }
